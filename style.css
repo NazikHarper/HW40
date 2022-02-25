@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Press+Start+2P&display=swap');
+body {
+    background: url(./img/stretched-1920-1080-1201384.jpg);
+    background-size: cover;
+}
+#box{
+    width: 900px;
+    height: 950px;
+    background-color: rgba(95, 158, 160, 0);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+}
+#par{
+    padding: 20px 50px;
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#input {
+    padding: 10px 40px;
+    background-color: rgba(74, 151, 74, 0.486);
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    opacity: .7;
+}
+#pole{
+    width: 731px;
+    height: 341px;
+    background: url(./img/kisspng-race-track-motogp-track-racing-computer-icons-racing-track-5b0db76ae012b3.7861361915276255789178-removebg-preview.png);
+    background-size: cover;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+#player{
+    width: 45px;
+    height: 45px;
+    background: url(./img/car.png);
+    background-size: cover;
+    border-radius: 100%;
+    /* display: none; */
+    opacity: 0;
+    transition: all .4s linear;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+#box button{
+    padding: 10px 15px;
+    background-color: rgba(80, 82, 80, 0.466);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#gamepad{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 130px;
+    bottom: 390px;
+
+}
+#top {
+    align-items: center;
+    color: white;
+}
+#down{
+    align-items: center;
+    color: white;
+}
+#lr{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#lr button{
+    margin-right: 50px;
+    margin-left: -16px;
+    color: white;
+}
+#start{
+    margin-right: 500px;
+    color: white;
+}
+#color{
+    margin-top: 20px;
+    margin-right: 500px;
+}
+.text h3 {
+    text-align: center;
+    font-size: 37px;
+    color: rgba(161, 18, 18, 0.726);
+    font-family: 'Comforter', cursive;
+    font-family: 'Press Start 2P', cursive;
+}.text p {
+    text-align: center;
+    font-size: 23px;
+    color: rgba(161, 18, 18, 0.726);
+    font-family: 'Comforter', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
